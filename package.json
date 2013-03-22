@@ -1,0 +1,22 @@
+{
+  "name": "har2appcache",
+  "version": "0.0.2",
+  "description": "generate a appcache file from a http archive/HAR one",
+  "main": "har2appache.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jeromeetienne/har2appcache.git"
+  },
+  "keywords": [
+    "appcache",
+    "har"
+  ],
+  "bin" : {
+    "har2appcache" : "./har2appcache.js"
+  },
+  "author": "jerome.etienne@gmail.com",
+  "license": "MIT"
+}
