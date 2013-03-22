@@ -3,7 +3,7 @@ har2appcache
 
 generate a appcache file from  a HTTP Archive file.har.
 It extracts all the requests's urls made by your page and build the appcache file with it.
-So you get all the requests even the dynamic ones, even the ones from ```XMLHttpRequest```
+So you get all the requests even the dynamic ones like ```XMLHttpRequest```.
 It is more robust than the usual appcache builders which are based on DOM parsing.
 
 
@@ -19,7 +19,18 @@ sudo npm install -g har2appcache
 har2appcache sample.har
 ```
 
-it will output a appcache file
+it will output a appcache file on the terminal.
+
+```
+CACHE MANIFEST
+
+CACHE:
+index.html
+images/star.png
+
+NETWORK:
+*
+```
 
 ### Help 
 
