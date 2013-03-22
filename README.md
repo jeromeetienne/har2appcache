@@ -1,7 +1,11 @@
 har2appcache
 ============
 
-generate a appcache file from  a HTTP Archive file.har
+generate a appcache file from  a HTTP Archive file.har.
+It extracts all the requests's urls made by your page and build the appcache file with it.
+So you get all the requests even the dynamic ones, even the ones from ```XMLHttpRequest```
+It is more robust than the usual appcache builders which are based on DOM parsing.
+
 
 ### How To Install
 
