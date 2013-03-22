@@ -30,8 +30,7 @@ var urls	= har.log.entries.map(function(entry){
 //		apply some rules i like						//
 //////////////////////////////////////////////////////////////////////////////////
 
-
-if( !isCooked ){
+if( isCooked ){
 	// remove some weird things loaded automatically by chrome
 	urls	= urls.filter(function(url){ return url.match(/^chrome-extension/) ? false : true;})
 	// remove baseURL from the url - thus easier to change project location
